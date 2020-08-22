@@ -1,0 +1,359 @@
+* {
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+html,
+body {
+    /*    font-family:Orbitron;*/
+    /*    font-family: 'Orbitron', sans-serif;*/
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 1.7;
+    /*    font-weight: 300;*/
+    font-size: 1.1rem;
+    color: #989898;
+}
+
+#navbarNav {
+    justify-content: flex-end;
+}
+
+#mainnavbar .navbar-brand {
+    color: #b2beb5;
+}
+
+#mainnavbar .nav-link {
+    color: #b2beb5;
+}
+
+#mainnavbar .nav-link:hover {
+    color: red;
+    border-bottom: 2px solid red;
+}
+
+.nav-item.navlink a:hover {
+    text-decoration: underline;
+    color: red;
+}
+
+li {
+    margin-left: 6px;
+    margin-right: 6px;
+}
+
+#landingpage {
+    width: 100%;
+    height: 850px;
+    background: url(images/danielle-cerullo-CQfNt66ttZM-unsplash.jpg) center center fixed;
+    background-size: cover;
+}
+
+.overlay1 {
+    width: 100%;
+    height: 850px;
+    background: #000;
+    background-size: cover;
+    opacity: .7;
+    position: absolute;
+}
+
+#landingcontent {
+    text-align: center;
+    padding-top: 280px;
+    color: white;
+    max-width: 700px;
+    margin: auto;
+    object-fit: contain;
+}
+
+i {
+    width: 100px;
+    font-size: 70px;
+    color: red;
+}
+
+.width {
+    max-width: 250px;
+    margin: auto;
+}
+
+.navbar.scrolled {
+    background: white;
+    color: black !important;
+    transition: background, 0.6s linear;
+}
+
+.navbar.scrolled > li > a {
+    padding: 5px 20px;
+    color: #000;
+    display: inline-block;
+    text-decoration: none !important;
+}
+
+.btn.btn-light {
+    background: transparent;
+    color: white;
+}
+
+.rowhead2 {
+    margin-bottom: 15px;
+    max-width: 950px;
+    margin: auto;
+}
+
+.btn.btn-light:hover {
+    color: #000;
+    background: white;
+}
+
+.box1 {
+    box-shadow: 100%;
+    text-align: center;
+    text-justify: auto;
+    max-width: 750px;
+    padding: 2px 20px 2px 20px;
+    margin-bottom: 50px;
+    box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.08);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.box1:hover {
+    box-shadow: 0 5px 15px 2px rgba(0, 0, 0, 0.1);
+}
+
+.boxcontent {
+    margin-bottom: 50px;
+}
+
+.iconbox {
+    #border: 2px solid black;
+    width: 100px;
+    margin: auto;
+    padding-bottom: 10px;
+    margin-bottom: 50px;
+}
+
+#overlayed {
+    background: url(images/victor-freitas-WvDYdXDzkhs-unsplash.jpg) no-repeat center center fixed;
+    position: relative;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.overlaycontent {
+    color: white;
+    max-width: 600px;
+    margin: auto;
+    margin-top: 12%
+}
+
+.overlay {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    background-size: cover;
+    opacity: .3;
+    position: absolute;
+}
+
+.row.container.cut {
+    margin: auto;
+    margin-bottom: 90px;
+}
+
+/*
+#rectangle1{
+    width:1000px;
+    margin: auto;
+    #margin-left:150px;
+    #margin-right:50px; 
+}
+*/
+.class-item {
+    margin-bottom: 30px;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 0 5px 20px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-bottom: 30px;
+    position: relative;
+    -webkit-transition: .3s all ease;
+    -o-transition: .3s all ease;
+    transition: .3s all ease;
+    z-index: 1;
+}
+
+.imagebox {
+    width: 150px;
+    flex: 0 0 150px;
+}
+
+.class-item .imagebox img {
+    max-width: 100%;
+}
+
+.class-item:hover {
+    -webkit-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    transform: scale(1.2);
+    z-index: 2;
+    background: #f23a2e;
+}
+
+#secondimage {
+    background: url(images/danielle-cerullo-CQfNt66ttZM-unsplash.jpg);
+
+}
+
+#rectangle1 {
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.textbox {
+    width: 300px;
+    padding-top: 2.5%;
+    padding-left: 20px;
+}
+
+.subhead {
+    margin: auto;
+    max-width: 600px;
+    margin-top: 12%;
+}
+
+#overlayer {
+    background: url(images/jelmer-assink-gzeTjGu3b_k-unsplash.jpg) no-repeat center center fixed;
+    position: relative;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+.subhead2 {
+    margin: auto;
+    text-align: center;
+    max-width: 600px;
+    margin-top: 8%;
+}
+
+.traintext {
+    text-align: center;
+    max-width: 400px;
+    margin: auto;
+}
+
+.imgbox {
+    width: 100px;
+    margin: auto;
+    /*    padding-left:30%;*/
+    margin-bottom: 10%;
+}
+
+.imgbox img {
+    height: 110px;
+    width: 100px;
+    border-radius: 100%;
+}
+
+.subcontent {
+    margin-top: 8%;
+}
+
+#button {
+    background: red;
+    border: red;
+}
+
+.contact-head {
+    padding-top: 150px;
+    padding-bottom: 100px;
+    max-width: 600px;
+    margin: auto;
+}
+
+/*
+.form-group{
+    max-width:900px; 
+}
+*/
+#size {
+    max-width: 600px;
+    margin: auto;
+    padding-bottom: 100px;
+}
+
+#size2 {
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.links {
+    #margin-left: 50px;
+}
+
+.linked {
+    margin-bottom: 20px;
+}
+
+#button2 {
+    background: red;
+    padding: 2%;
+    font-size: 12px;
+    height: 35px;
+}
+
+#button2:hover {
+    color: white;
+}
+
+.email {
+    height: 35px;
+    border: 2px solid #b2beb5;
+}
+
+.foot {
+    margin: auto;
+}
+
+.row-foot {
+    margin: auto;
+    width: 700px;
+    padding-bottom: 180px;
+}
+
+#overlayed2 {
+    background: url(images/anastase-maragos-FP7cfYPPUKM-unsplash.jpg) no-repeat center center fixed;
+    position: relative;
+    background-size: cover;
+    height: 400px;
+    width: 100%;
+}
+
+#letters {
+    /*    float:left;*/
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+
+.alpha {
+    width: 400px;
+    height: 60px;
+    padding-top: 1.5%;
+    margin: auto;
+    color: red;
+    text-align: center;
+}
+.alpha:hover {
+    background: red;
+    color: white;
+    transition: .3s all ease;
+}
